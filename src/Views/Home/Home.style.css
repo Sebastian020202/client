@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 150%;
+  height: 0vh;
+  
+  
+}
+.home-title{
+  background-image: url("../../Components/asets/take\ heed\ young\ heathen.gif");
+    margin-top: 60px;
+    margin-bottom: 100px;
+    font-size: 150px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(151, 58, 58, 0.808);
+
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.pagination-container {
+  position: absolute; /* Posicionar el contenedor de paginado de forma absoluta */
+  top: 20px; /* Ajustar la distancia superior */
+  right: 20px; /* Ajustar la distancia derecha */
+}
+
+.create-game-button.create-game-btn {
+  position: fixed;
+  top: 100px;
+  right: 60px;
+  padding: 0;
+  width: 500px;
+  height: 500px;
+  background-image: url("../../Components/asets/CREATE_VIDEO_GAME__1_-removebg-preview.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  border-radius: 20%;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+
+.create-game-button.create-game-btn:hover {
+  transform: scale(1.2); /* Hacer que el botón se agrande ligeramente al pasar el cursor sobre él */
+}
+
+.create-game-button.create-game-btn:focus {
+  outline: none;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Posicionar el botón en la parte inferior derecha en pantallas pequeñas */
+  .create-game-button.create-game-btn {
+    bottom: 20px;
+    top: unset;
+    right: 20px;
+  }
+}

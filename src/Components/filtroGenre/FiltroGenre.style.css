@@ -1,0 +1,52 @@
+/* Estilos para el contenedor del select */
+.select-container {
+    position: absolute;
+    top: 100px; /* Ajusta la distancia desde la parte superior */
+    left: 100px; /* Ajusta la distancia desde la parte derecha */
+  }
+  
+  /* Estilos para el título "Géneros" */
+  .select-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  /* Estilos para el select */
+  .select-genres {
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #7ebeff;
+    color: black;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  /* Estilos para las opciones del select */
+  .select-genres option {
+    font-size: 14px;
+    padding: 8px 12px;
+    color: black;
+  }
+  
+  /* Estilos para el ícono del select (si se utiliza algún ícono) */
+  .select-icon {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
+  /* Estilos para el título "Géneros" */
+.select-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff; /* Color de letra blanco */
+    margin-bottom: 8px;
+  }
+  

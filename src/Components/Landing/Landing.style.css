@@ -1,0 +1,39 @@
+.container-landing{
+    display: flex;
+    width: 99vw;
+    height: 99vh;
+    justify-content:space-around;
+    align-items: center;
+  }
+  
+  
+  .container-landing .text{
+    width: 50vw;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .container-landing .text h2{
+    font-size: 4vw;
+  }
+  
+  .container-landing .text h4{
+    margin-top: 2vw;
+    font-size: 2vw;
+    font-weight: 100;
+  }
+  
+  .container-landing .text img{
+    width: 25vw;
+    margin-top: 2vw;
+  }
+  .container-landing .text img:hover{
+    scale: 1.1;
+  }
+  
+  .container-landing .content-image img{
+    width: 27vw;
+  }
+  
+  

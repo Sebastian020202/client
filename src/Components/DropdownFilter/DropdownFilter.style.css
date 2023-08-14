@@ -1,0 +1,80 @@
+/* Estilos para el contenedor del filtro */
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+
+/* Estilos para los filtros */
+.dropdown-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Estilos para los botones */
+.dropdown-btn {
+  background-color: #4caf50;
+  color: rgb(3, 3, 3);
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+/* Estilos al pasar el cursor sobre los botones */
+.dropdown-btn:hover {
+  background-color: #7ebeff;
+}
+
+/* Estilos para el contenido del botón desplegable */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+/* Mostrar el contenido del botón desplegable cuando se pasa el cursor sobre el elemento padre */
+.dropdown-item:hover .dropdown-content {
+  display: block;
+}
+
+/* Estilos para los botones dentro del contenido del botón desplegable */
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Estilos al pasar el cursor sobre los botones dentro del contenido del botón desplegable */
+.dropdown-content button:hover {
+  background-color: #7ebeff;
+}
+
+/* Estilos para los botones específicos */
+.dropdown-btn {
+  background-color: #7ebeff;
+}
+
+/* Estilos para el filtro de géneros */
+.dropdown-filter select {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.dropdown-title {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}

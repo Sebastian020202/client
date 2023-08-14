@@ -1,0 +1,50 @@
+/* Navbar.style.css */
+
+/* Estilos para el contenedor de la barra de navegación */
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start; /* Alinea el contenido a la izquierda */
+    align-items: center;
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    height: 60px; /* Ajusta la altura según tus necesidades */
+    padding: 0 20px; /* Espacio interno en los lados */
+    position: fixed; /* Fija la barra de navegación en la parte superior */
+    top: 0; /* Coloca la barra en la parte superior */
+    left: 0; /* Coloca la barra en la parte izquierda */
+    z-index: 9999;
+  }
+  
+  /* Estilos para el input de búsqueda */
+  .nav form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav input[type="search"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px; /* Espacio entre el input y el botón */
+    font-size: 18px; /* Ajusta el tamaño de la fuente según tus necesidades */
+  }
+  
+  .nav button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #e84118; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Ajusta el tamaño de la fuente según tus necesidades */
+  }
+  
+  /* Estilos para el ícono de la barra de navegación (si lo tienes) */
+  .nav img {
+    height: 30px; /* Ajusta el tamaño del ícono según tus necesidades */
+  }
+  
+  .nav img:hover {
+    transform: scale(1.1); /* Efecto de escala al pasar el mouse por encima */
+  }
+  

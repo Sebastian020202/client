@@ -1,0 +1,76 @@
+/* Detail.style.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #4400ff;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+
+p {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff1f1;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  img {
+    max-width: 100%;
+  }
+}
